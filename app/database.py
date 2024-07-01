@@ -12,12 +12,20 @@ os.chdir(d)
 load_dotenv()
 
 # Configuración de la base de datos usando variables de entorno
+# DATABASE_CONFIG = {
+#     'user': os.getenv('DB_USERNAME'),  
+#     'password': os.getenv('DB_PASSWORD'),  
+#     'host': os.getenv('DB_HOST'),  
+#     'database': os.getenv('DB_NAME'),  
+#     'port': os.getenv('DB_PORT', 3306)  # Puerto del servidor de la base de datos, por defecto es 3306 si no se especifica
+# }
+
 DATABASE_CONFIG = {
-    'user': os.getenv('DB_USERNAME'),  
-    'password': os.getenv('DB_PASSWORD'),  
-    'host': os.getenv('DB_HOST'),  
-    'database': os.getenv('DB_NAME'),  
-    'port': os.getenv('DB_PORT', 3306)  # Puerto del servidor de la base de datos, por defecto es 3306 si no se especifica
+    'user':"sql5717349",  
+    'password': "MdLkB6FKQs",  
+    'host': "sql5.freemysqlhosting.net",  
+    'database': "sql5717349",  
+    'port': 3306  # Puerto del servidor de la base de datos, por defecto es 3306 si no se especifica
 }
 
 
