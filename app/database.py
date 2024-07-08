@@ -30,7 +30,7 @@ load_dotenv()
 DATABASE_CONFIG = {
     'user':"root",  
     'password': "1234",  
-    'host': "localhost",  
+    'host': "127.0.0.1",  
     'database': "cbcdb",  
     'port': 3306  # Puerto del servidor de la base de datos, por defecto es 3306 si no se especifica
 }
