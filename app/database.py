@@ -20,11 +20,18 @@ load_dotenv()
 #     'port': os.getenv('DB_PORT', 3306)  # Puerto del servidor de la base de datos, por defecto es 3306 si no se especifica
 # }
 
+# DATABASE_CONFIG = {
+#     'user':"sql5717349",  
+#     'password': "MdLkB6FKQs",  
+#     'host': "sql5.freemysqlhosting.net",  
+#     'database': "sql5717349",  
+#     'port': 3306  # Puerto del servidor de la base de datos, por defecto es 3306 si no se especifica
+# }
 DATABASE_CONFIG = {
-    'user':"sql5717349",  
-    'password': "MdLkB6FKQs",  
-    'host': "sql5.freemysqlhosting.net",  
-    'database': "sql5717349",  
+    'user':"root",  
+    'password': "1234",  
+    'host': "localhost",  
+    'database': "cbcdb",  
     'port': 3306  # Puerto del servidor de la base de datos, por defecto es 3306 si no se especifica
 }
 
